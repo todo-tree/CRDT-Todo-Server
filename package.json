@@ -1,0 +1,36 @@
+{
+  "name": "sync-mongo",
+  "version": "0.0.1",
+  "description": "",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cosmic-rare/sync-mongo.git"
+  },
+  "keywords": [
+    "Express",
+    "Mongodb"
+  ],
+  "author": "tani",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cosmic-rare/sync-mongo/issues"
+  },
+  "homepage": "https://github.com/Cosmic-rare/sync-mongo#readme",
+  "dependencies": {
+    "ajv": "^8.11.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.5.2",
+    "socket.io": "^4.5.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.18.10",
+    "@babel/node": "^7.18.10",
+    "@babel/preset-env": "^7.18.10",
+    "nodemon": "^2.0.19"
+  }
+}
