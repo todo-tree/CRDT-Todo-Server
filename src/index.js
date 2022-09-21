@@ -22,10 +22,10 @@ app.use((req, res, next) => {
 app.use(cors());
 app.use(express.json());
 
-mongoose.connect("mongodb://localhost/sync-db");
+mongoose.connect("mongodb://localhost/CRDT-Todo");
 
 app.use("/", router);
 
-server.listen(PORT, "0.0.0.0", () => {
+server.listen(PORT, () => {
   console.log(`dev server running at: http://localhost:${PORT}/`);
 });
